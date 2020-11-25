@@ -1,0 +1,27 @@
+[1112/165132.049:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1112/165132.052:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1112/165134.047:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1112/165134.047:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1112/165134.292:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1112/165134.292:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1112/165134.571:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1112/165134.571:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1112/165134.968:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1112/165134.969:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1112/165134.969:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1112/165135.264:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1112/165135.264:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1112/165135.264:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1112/165135.630:ERROR:file_io_win.cc(162)] CreateFile C:\Users\dezmo\AppData\Local\Temp\karma-95489113\Crashpad\settings.dat: The system cannot find the file specified. (0x2)
+[1112/165135.663:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1112/165135.663:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1112/165135.669:ERROR:file_io_win.cc(162)] CreateFile C:\Users\dezmo\AppData\Local\Temp\karma-95489113\Crashpad\settings.dat: The system cannot find the file specified. (0x2)
+[1112/165135.921:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1112/165135.922:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1112/165135.922:ERROR:file_io_win.cc(162)] CreateFile C:\Users\dezmo\AppData\Local\Temp\karma-95489113\Crashpad\settings.dat: The system cannot find the file specified. (0x2)
+[1112/165135.923:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1112/165135.923:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1112/165135.994:ERROR:file_io_win.cc(162)] CreateFile C:\Users\dezmo\AppData\Local\Temp\karma-95489113\Crashpad\settings.dat: The system cannot find the file specified. (0x2)
+[1112/165136.307:ERROR:file_io_win.cc(162)] CreateFile C:\Users\dezmo\AppData\Local\Temp\karma-95489113\Crashpad\settings.dat: The system cannot find the file specified. (0x2)
+[1112/165136.309:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1112/165136.311:ERROR:crash_report_database_win.cc(498)] failed to stat report

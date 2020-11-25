@@ -1,0 +1,38 @@
+img {
+    transition: .5s;
+}
+
+.card {
+    max-width: 300px;
+    height: 400px;
+    transition: all .3s;
+    position: relative;
+    margin: 10px auto;
+}
+
+.title {
+    position: absolute;
+    color: white;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font: 400 25px Roboto, "Helvetica Neue", sans-serif ;
+}
+
+.cover {
+    object-fit: cover;
+    height: 110%;
+}
+
+.card:hover img {
+    transition: .5s;
+    transform: translateY(-3px);
+} 
+
+.card:hover { 
+    cursor: pointer;
+    transition: all .3s;
+    -webkit-box-shadow: 0px 10px 14px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px 10px 14px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 10px 14px 0px rgba(50, 50, 50, 0.75);
+}
