@@ -3,11 +3,8 @@ using Microsoft.Extensions.DependencyInjection;
 using OnlineStore.Repository.Interfaces;
 using OnlineStore.Repository.Repositories;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Reflection;
-using System.Threading.Tasks;
 
 namespace OnlineStore.Extentions
 {
@@ -26,6 +23,11 @@ namespace OnlineStore.Extentions
         public static void ConfigureAutoMapper(this IServiceCollection service)
         {
             service.AddAutoMapper(typeof(AutoMapperExtention));
+        }
+
+        public static void ConfigureJson(this IServiceCollection services)
+        {
+            services.AddControllers().AddNewtonsoftJson(x => x.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
         }
 
         public static void ConfigureSwagger(this IServiceCollection services)

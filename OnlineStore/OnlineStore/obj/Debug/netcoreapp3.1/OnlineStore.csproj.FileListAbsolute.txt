@@ -140,7 +140,9 @@ E:\Online_Store\OnlineStore\OnlineStore\bin\Debug\netcoreapp3.1\Microsoft.OpenAp
 E:\Online_Store\OnlineStore\OnlineStore\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 E:\Online_Store\OnlineStore\OnlineStore\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 E:\Online_Store\OnlineStore\OnlineStore\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Online_Store\OnlineStore\OnlineStore\bin\Debug\netcoreapp3.1\OnlineStore.xml
+E:\Online_Store\OnlineStore\OnlineStore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+E:\Online_Store\OnlineStore\OnlineStore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 E:\Online_Store\OnlineStore\OnlineStore\obj\Debug\netcoreapp3.1\OnlineStore.csproj.CoreCompileInputs.cache
 E:\Online_Store\OnlineStore\OnlineStore\obj\Debug\netcoreapp3.1\OnlineStore.MvcApplicationPartsAssemblyInfo.cs
 E:\Online_Store\OnlineStore\OnlineStore\obj\Debug\netcoreapp3.1\OnlineStore.MvcApplicationPartsAssemblyInfo.cache
-E:\Online_Store\OnlineStore\OnlineStore\bin\Debug\netcoreapp3.1\OnlineStore.xml

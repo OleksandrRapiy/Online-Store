@@ -1,5 +1,11 @@
 .card {
+    margin: 10px auto;
     max-width: 300px;
+    img {
+        min-height: 400px;
+        object-fit: cover;
+        height: 110%;
+    }
 }
 
 mat-card-actions {

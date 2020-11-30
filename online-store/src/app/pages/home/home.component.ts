@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { CategoryService } from 'src/app/core/services/category/category.service';
+import { ProductService } from 'src/app/core/services/product/product.service';
 import { ICategoryRequest } from 'src/app/models/categories/category-request';
 import { ICategoryResponse } from 'src/app/models/categories/category-response';
+import { IProduct } from 'src/app/models/products/product';
 
 @Component({
   selector: 'app-home',
@@ -11,11 +13,13 @@ import { ICategoryResponse } from 'src/app/models/categories/category-response';
 export class HomeComponent implements OnInit {
 
   categories: ICategoryResponse[];
+  products: IProduct[];
 
-  constructor(private categoryService: CategoryService) { }
+  constructor(private categoryService: CategoryService, private productService: ProductService) { }
 
   ngOnInit(): void {
     this.getAllCategories();
+    this.getAllProducts();
   }
 
 
@@ -26,5 +30,13 @@ export class HomeComponent implements OnInit {
       }
     })
   };
+
+  getAllProducts() {
+    this.productService.get().subscribe((products: IProduct[]) => {
+      if(products) {
+       this.products = products
+      }
+    })
+  }
 
 }

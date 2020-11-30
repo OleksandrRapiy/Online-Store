@@ -1,16 +1,14 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace OnlineStore.Models.Entities
+namespace OnlineStore.Models.Dtos
 {
-    public class Product
+    public class ProductDTO
     {
-        [Key]
         public int Id { get; set; }
-
         public int CategoryId { get; set; }
-
-        public Category Category { get; set; }
-
         public string Name { get; set; }
         public string Description { get; set; }
         public double Price { get; set; }

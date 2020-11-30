@@ -9,6 +9,8 @@ namespace OnlineStore.Repository.Interfaces
     {
         ICategoryRepository Category { get; }
 
+        IProductRepository Product { get; }
+
         Task SaveAsync();
     }
 }

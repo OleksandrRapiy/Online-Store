@@ -1,0 +1,7 @@
+<div class="container">
+    <h1>All categories</h1>
+    <div class="row">
+        <app-category-card class="col-md-4 col-sm-6 col-xs-12" *ngFor="let category of categories"
+            [category]="category"></app-category-card>
+    </div>
+</div>

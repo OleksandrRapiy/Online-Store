@@ -8,6 +8,7 @@ namespace OnlineStore.Repository.Repositories
     {
         private OnlineStoreContext _context;
         private ICategoryRepository _category;
+        private IProductRepository _product;
 
         public RepositoryWrapper(OnlineStoreContext context)
         {
@@ -19,6 +20,14 @@ namespace OnlineStore.Repository.Repositories
             get
             {
                 return _category ??= new CategoryRepository(_context);
+            }
+        }
+
+        public IProductRepository Product
+        {
+            get
+            {
+                return _product ??= new ProductRepository(_context);
             }
         }
 

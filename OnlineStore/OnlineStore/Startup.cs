@@ -25,7 +25,7 @@ namespace OnlineStore
             services.ConfigureCors();
             services.ConfigureSwagger();
             services.ConfigureAutoMapper();
-
+            services.ConfigureJson();
             services.AddControllers();
 
 

@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { SharedModule } from '../shared/shared.module';
 import { ProductComponent } from './product/product.component';
 import { BasketComponent } from './basket/basket.component';
+import { CategoryComponent } from './category/category.component';
 
 
 
@@ -11,7 +12,8 @@ import { BasketComponent } from './basket/basket.component';
   declarations: [
     HomeComponent,
     ProductComponent,
-    BasketComponent
+    BasketComponent,
+    CategoryComponent
   ],
   imports: [
     CommonModule,
