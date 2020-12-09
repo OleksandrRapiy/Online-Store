@@ -1,1 +1,44 @@
-<p>product works!</p>
+<div class="container my-2 ">
+    <div class="row">
+        <div class="vertical-images col-md-2 col-sm-4 col-xs-8">
+            <img mat-image [class.slectedImg]="selectedImage == product.image" (click)="selectedImage = product.image"
+                src="{{product.image}}" alt="{{product.name}}">
+        </div>
+
+        <div class="main-image col-md-5 col-sm-8 col-xs-12">
+            <img mat-image src="{{product.image}}" alt="{{product.name}}">
+        </div>
+        <div class="product-desctiption col-md-5 col-sm-12 col-xs-12">
+            <h3>
+                {{product.name}}
+            </h3>
+
+            <div class="desctiption">
+                <p *ngIf="product.description?.trim().length > 0">
+                    {{product.description}}
+                </p>
+
+                <p *ngIf="product.description == null || product.description?.trim().length == 0">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis unde cumque dolore suscipit
+                    exercitationem
+                    nobis temporibus necessitatibus atque? Accusantium rerum totam voluptas illum provident in
+                    consequatur
+                    assumenda quis iure quibusdam?
+                </p>
+            </div>
+
+
+            <div class="sizes">
+                <button mat-stroked-button>S</button>
+                <button mat-stroked-button>M</button>
+                <button mat-stroked-button>L</button>
+                <button mat-stroked-button>XL</button>
+                <button mat-stroked-button>2XL</button>
+            </div>
+
+            <div class="buy-container mt-3">
+                <button mat-stroked-button class="">{{product.price | currency}} - BUY</button>
+            </div>
+        </div>
+    </div>
+</div>

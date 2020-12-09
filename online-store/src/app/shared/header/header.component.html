@@ -4,7 +4,7 @@
 			<div class="col-12">
 				<nav class="navbar navbar-expand-md navbar-light">
 
-					<a class="navbar-brand"><img src="https://assets.codepen.io/1462889/fcy.png" alt=""></a>
+					<a class="navbar-brand" [routerLink]="['/']"><img src="https://assets.codepen.io/1462889/fcy.png" alt=""></a>
 
 					<button class="navbar-toggler" type="button" data-toggle="collapse"
 						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -19,10 +19,10 @@
 									aria-expanded="false">Home</a>
 							</li>
 							<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-								<a class="nav-link" [routerLink]="['/category']" routerLinkActive="router-link-active" role="button" >Categories</a>
+								<a class="nav-link" [routerLink]="['./categories']" routerLinkActive="router-link-active" role="button" >Categories</a>
 							</li>
 							<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-								<a class="nav-link" >Products</a>
+								<a class="nav-link"  [routerLink]="['./products']" routerLinkActive="router-link-active" role="button" >Products</a>
 							</li>
 							<!-- <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
 									<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a>

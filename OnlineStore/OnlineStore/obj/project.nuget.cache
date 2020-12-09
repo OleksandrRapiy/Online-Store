@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SpU7rcidx2ivGpTjBTxKHWtlzaMHvtd8XqtwKI9u4m7k8RL8IqcPEnb5tn7sa/xQiNuKWmhIiJZWAA0Sw5pawg==",
+  "dgSpecHash": "2v/IZStNcCtcL9diZEos/Lh1pfPRoLvIYjP7uLxUPbTIiLhHXai3eh21/6wahW+jyt0+/o1kL+ibgbkzOvbDSQ==",
   "success": true,
   "projectFilePath": "E:\\Online_Store\\OnlineStore\\OnlineStore\\OnlineStore.csproj",
   "expectedPackageFiles": [
@@ -173,7 +173,9 @@
     "C:\\Users\\dezmo\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\dezmo\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\dezmo\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\dezmo\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\dezmo\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\dezmo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.8\\microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512",
+    "C:\\Users\\dezmo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.9\\microsoft.netcore.app.host.win-x64.3.1.9.nupkg.sha512"
   ],
   "logs": [
     {

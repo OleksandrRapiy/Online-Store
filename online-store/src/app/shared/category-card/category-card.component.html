@@ -1,4 +1,4 @@
-<mat-card class="card">
+<mat-card class="card" [routerLink]="['/products-from-category', category.id]">
     <img mat-card-image src="../../../assets/images/categories/{{category.image}}" class="cover" alt="{{category.name}}">
     <div class="title">
         {{category.name}}

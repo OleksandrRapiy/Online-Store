@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\dezmo\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\dezmo\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_OnlineStore.-1993344396.00" t="ExcludeRecursive" />
+    <e p="E:\Online_Store\OnlineStore" t="IncludeFlat">
+      <e p="OnlineStore" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="CategoryController.cs" t="Include" />
+          <e p="ProductController.cs" t="Include" />
+        </e>
+        <e p="Extentions" t="Include">
+          <e p="AutoMapperExtention.cs" t="Include" />
+          <e p="ServiceExtension.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20201116220503_AddRolesEntity.cs" t="Include" />
+          <e p="20201116220503_AddRolesEntity.Designer.cs" t="Include" />
+          <e p="20201119221147_AddUsersTable.cs" t="Include" />
+          <e p="20201119221147_AddUsersTable.Designer.cs" t="Include" />
+          <e p="20201119221541_AddEnum.cs" t="Include" />
+          <e p="20201119221541_AddEnum.Designer.cs" t="Include" />
+          <e p="20201119221956_AddCategories.cs" t="Include" />
+          <e p="20201119221956_AddCategories.Designer.cs" t="Include" />
+          <e p="20201119222318_updateContext.cs" t="Include" />
+          <e p="20201119222318_updateContext.Designer.cs" t="Include" />
+          <e p="20201125181940_AddImageToCategory.cs" t="Include" />
+          <e p="20201125181940_AddImageToCategory.Designer.cs" t="Include" />
+          <e p="20201125182120_UpdateProducts.cs" t="Include" />
+          <e p="20201125182120_UpdateProducts.Designer.cs" t="Include" />
+          <e p="20201129222530_UpdateProductCategoryModels.cs" t="Include" />
+          <e p="20201129222530_UpdateProductCategoryModels.Designer.cs" t="Include" />
+          <e p="20201129222636_UpdateProductModel.cs" t="Include" />
+          <e p="20201129222636_UpdateProductModel.Designer.cs" t="Include" />
+          <e p="OnlineStoreContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Dtos" t="Include">
+            <e p="CategoryDTO.cs" t="Include" />
+            <e p="ProductDTO.cs" t="Include" />
+          </e>
+          <e p="Entities" t="Include">
+            <e p="Category.cs" t="Include" />
+            <e p="Products.cs" t="Include" />
+            <e p="Role.cs" t="Include" />
+            <e p="User.cs" t="Include" />
+          </e>
+          <e p="OnlineStoreContext.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="OnlineStore.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="OnlineStore.csproj" t="IncludeRecursive" />
+        <e p="OnlineStore.xml" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Repository" t="Include">
+          <e p="Interfaces" t="Include">
+            <e p="ICategoryRepository.cs" t="Include" />
+            <e p="IProductRepository.cs" t="Include" />
+            <e p="IRepositoryBase.cs" t="Include" />
+            <e p="IRepositoryWrapper.cs" t="Include" />
+          </e>
+          <e p="Repositories" t="Include">
+            <e p="CategoryRepository.cs" t="Include" />
+            <e p="ProductRepository.cs" t="Include" />
+            <e p="RepositoryBase.cs" t="Include" />
+            <e p="RepositoryWrapper.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="OnlineStore.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

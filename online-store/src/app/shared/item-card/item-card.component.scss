@@ -1,6 +1,7 @@
 .card {
     margin: 10px auto;
     max-width: 300px;
+    cursor: pointer;
     img {
         min-height: 400px;
         object-fit: cover;
@@ -11,4 +12,11 @@
 mat-card-actions {
     display: flex;
     justify-content: space-around;
+}
+
+.price { 
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 500;
 }

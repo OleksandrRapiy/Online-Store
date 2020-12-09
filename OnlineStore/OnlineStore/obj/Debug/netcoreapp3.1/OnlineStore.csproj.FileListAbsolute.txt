@@ -1,6 +1,5 @@
 E:\Online_Store\OnlineStore\OnlineStore\bin\Debug\netcoreapp3.1\appsettings.Development.json
 E:\Online_Store\OnlineStore\OnlineStore\bin\Debug\netcoreapp3.1\appsettings.json
-E:\Online_Store\OnlineStore\OnlineStore\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 E:\Online_Store\OnlineStore\OnlineStore\bin\Debug\netcoreapp3.1\OnlineStore.exe
 E:\Online_Store\OnlineStore\OnlineStore\obj\Debug\netcoreapp3.1\OnlineStore.csprojAssemblyReference.cache
 E:\Online_Store\OnlineStore\OnlineStore\obj\Debug\netcoreapp3.1\OnlineStore.AssemblyInfoInputs.cache
@@ -146,3 +145,4 @@ E:\Online_Store\OnlineStore\OnlineStore\bin\Debug\netcoreapp3.1\Microsoft.AspNet
 E:\Online_Store\OnlineStore\OnlineStore\obj\Debug\netcoreapp3.1\OnlineStore.csproj.CoreCompileInputs.cache
 E:\Online_Store\OnlineStore\OnlineStore\obj\Debug\netcoreapp3.1\OnlineStore.MvcApplicationPartsAssemblyInfo.cs
 E:\Online_Store\OnlineStore\OnlineStore\obj\Debug\netcoreapp3.1\OnlineStore.MvcApplicationPartsAssemblyInfo.cache
+E:\Online_Store\OnlineStore\OnlineStore\obj\Debug\netcoreapp3.1\scopedcss\bundle\OnlineStore.styles.css

@@ -1,6 +1,7 @@
 // Angular modules
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { AppRoutingModule } from '../app-routing.module';
 
 // Own components
 import { FooterComponent } from './footer/footer.component';
@@ -14,8 +15,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
-import { AppRoutingModule } from '../app-routing.module';
-
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { CoreModule } from '../core/core.module';
 
 @NgModule({
   declarations: [
@@ -29,15 +30,20 @@ import { AppRoutingModule } from '../app-routing.module';
     CommonModule,
     MatToolbarModule,
     BrowserAnimationsModule,
-    MatIconModule, 
+    MatIconModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    MatFormFieldModule,
+    CoreModule
   ],
   exports: [
     FooterComponent,
     HeaderComponent,
     ItemCardComponent,
-    CategoryCardComponent
+    CategoryCardComponent,
+    MatCardModule,
+    MatFormFieldModule,
+    MatButtonModule
   ]
 })
 export class SharedModule { }

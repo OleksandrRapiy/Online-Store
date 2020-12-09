@@ -3,7 +3,7 @@ import { CategoryService } from 'src/app/core/services/category/category.service
 import { ProductService } from 'src/app/core/services/product/product.service';
 import { ICategoryRequest } from 'src/app/models/categories/category-request';
 import { ICategoryResponse } from 'src/app/models/categories/category-response';
-import { IProduct } from 'src/app/models/products/product';
+import { Product } from 'src/app/models/products/product';
 
 @Component({
   selector: 'app-home',
@@ -13,7 +13,7 @@ import { IProduct } from 'src/app/models/products/product';
 export class HomeComponent implements OnInit {
 
   categories: ICategoryResponse[];
-  products: IProduct[];
+  products: Product[];
 
   constructor(private categoryService: CategoryService, private productService: ProductService) { }
 
@@ -32,9 +32,9 @@ export class HomeComponent implements OnInit {
   };
 
   getAllProducts() {
-    this.productService.get().subscribe((products: IProduct[]) => {
+    this.productService.get().subscribe((products: Product[]) => {
       if(products) {
-       this.products = products
+       this.products = products.filter((el, i) => i >= products.length / 4)
       }
     })
   }

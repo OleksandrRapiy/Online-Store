@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using OnlineStore.Models;
 using OnlineStore.Models.Dtos;
 using OnlineStore.Models.Entities;
 using OnlineStore.Repository.Interfaces;
@@ -32,14 +28,14 @@ namespace OnlineStore.Controllers
         public async Task<IActionResult> GetCategories()
         {
             List<Category> categories = await _wrapper.Category.FindAllAsync().ToListAsync();
-            List<CategoryDTO> categoryDTOs = new List<CategoryDTO>();
+            List<CategoryDTO> categoryDtOs = new List<CategoryDTO>();
 
             categories.ForEach((item) =>
             {
-                categoryDTOs.Add(_mapper.Map<CategoryDTO>(item));
+                categoryDtOs.Add(_mapper.Map<CategoryDTO>(item));
             });
 
-            return Ok(categories);
+            return Ok(categoryDtOs);
         }
     }
 }
